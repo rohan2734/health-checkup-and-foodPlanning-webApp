@@ -1,0 +1,28 @@
+home page-
+ bootstrap carousel.
+ load diseases
+
+Shop page
+ search bar
+ filter  diseases.
+ load diseases
+
+Dashboard
+ admin dasbhoard-only if admin
+ user dashboard- user and admin
+ 
+ admin dasboard-
+   admin info,create category, disease,foodPlan,MAnage foodPlan,
+   view orders.
+
+ user dashboard-
+   user info,show orders
+
+Login and signin
+ username, email ,password.
+ 
+Cart
+ Products in cart.
+ Payment options
+  
+ 

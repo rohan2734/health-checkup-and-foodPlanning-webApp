@@ -1,0 +1,40 @@
+.form-button{
+  border-radius: none;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font:inherit;
+}
+
+.container button:hover{
+  color: black;
+  background-color: #f8df00;
+  border: 1.5px solid black;
+}
+.form-group input{
+  background-color: gray;
+  color:white;
+}
+.form-group label{
+  color: blue;
+  font-weight: bold;
+}
+
+/* .authentication__header {
+  color: white;
+  text-align: center;
+}
+
+.authentication {
+  width: 90%;
+  max-width: 25rem;
+  margin: 7rem auto;
+  text-align: center;
+}
+
+.authentication form {
+  margin-bottom: 1rem;
+} */

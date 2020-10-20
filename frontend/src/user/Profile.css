@@ -1,0 +1,16 @@
+.form-button{
+  border-radius: none;
+  background-color: blue;
+  color: white;
+  border: 1px solid blue;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font:inherit;
+}
+
+.container button:hover{
+  color: black;
+  background-color: #f8df00;
+  border: 1.5px solid black;
+}

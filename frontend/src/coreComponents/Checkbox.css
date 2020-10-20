@@ -1,0 +1,18 @@
+.checkbox label{
+  color : black;
+  background-color: #C2C2C2;
+  margin-left: 40px;
+  padding:5px;
+  border-radius: 5px;
+  display: block;
+  margin-right :40px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0 10px 5px  rgba(0, 0, 0, 0.26);
+}
+.checkbox input{
+  color : blue;
+  background-color: black;
+}

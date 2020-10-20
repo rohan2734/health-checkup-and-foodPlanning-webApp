@@ -1,0 +1,33 @@
+.cart-shop {
+  color:white;
+  background-color: green;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.cart-shop:hover{
+  color: black;
+  background-color: lightgreen;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 5px;
+}
+.column{
+  float: left;
+  width: 40%;
+  padding: 10px;
+ margin-left: 20px;
+}
+/* .row::after{
+  content:"";
+  display: table;
+  clear:both;
+} */
+@media screen and (max-width:700px){
+  .column{
+    width: 100%;
+    float: none;
+  }
+}

@@ -1,0 +1,79 @@
+.card2 {
+  margin: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 1rem;
+  overflow: hidden;
+  background: white;
+  font:inherit;
+  background-color: #C2C2C2;
+  box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.26);
+  min-height: 530px;
+  max-height: 1000px;
+  width: 100%;
+}
+
+.disease-header h3{
+  color: white;
+  background-color: blue;
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+}
+.card2-foodplan{
+  color:white;
+  background-color: blue;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.cart-update p{
+  color: black;
+  font-weight: 700;
+  display: inline;
+  margin-right: 10px;
+}
+.cart-input{
+  width: 60%;
+}
+
+.card2-foodplan:hover{
+  color:black;
+  background-color: lightblue;
+  border: 1px solid lightblue;
+}
+
+.card2-cart{
+  color:white;
+  background-color: #f8df00;
+  border: 1px solid #f8df00;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font: inherit;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+.card2-cart:hover{
+  color:black;
+  background-color: #fceb59;
+  border: 1px solid #fceb59;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  font: inherit;
+  margin-left: 5px;
+}
+.card2-body p{
+  color: black;
+  font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  .card2{
+    max-width: 3000px;
+  }
+}

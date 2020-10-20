@@ -1,0 +1,43 @@
+.checkout-auth {
+  color:white;
+  background-color: #EFD600;
+  border: 1px solid #EFD600;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+.checkout-auth:hover{
+  color: black;
+  background-color: #EEFF6A;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.checkout-pay {
+  color:white;
+  background-color: blue;
+  border: 1px solid blue;
+  padding: 5px 40px ;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+  display: block;
+}
+.checkout-pay:hover{
+  color: black;
+  background-color: #EFD600;
+  border: 1px solid black;
+  text-decoration: none;
+}
+.checkout-checkout2 {
+  color:white;
+  background-color: green;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 15px;
+}
+

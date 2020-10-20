@@ -1,0 +1,18 @@
+.carousel {
+  color: black;
+}
+.carousel-caption h3{
+  color: black;
+}
+.carousel-item img{
+  justify-content: space-between;
+}
+.home-header h2{
+  color: blue;
+  background-color: #ABD8FF;
+  height: 6rem;
+  text-align: center;
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
+}

@@ -1,0 +1,14 @@
+.foodPlan-view-header{
+  color: blue;
+  height:5rem;
+  background-color: #ABD8FF;
+  margin-right: 10px;
+  margin-left:10px;
+  padding: 20px;
+  text-align: center;
+  font:inherit;
+  width: 60%;
+  margin-left: 2rem;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}

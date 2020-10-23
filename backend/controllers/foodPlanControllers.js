@@ -74,35 +74,7 @@ const addFoodPlan = async (req,res,next) => {
     }
 
    
-    // let Disease;
-    // try{
-    //   Disease = await diseaseSchema.findById(disease);
-    //   console.log('78',Disease);
-    // }catch(err){
-    //   const error = new HttpError(
-    //     'creating foodPlan failed',500
-    //   );
-    //   return next(error);
-    // }
-    // console.log('85',foodPlan);
-
-    // try{
-    //   const sess = await mongoose.startSession();
-    //   sess.startTransaction();
-    //   await foodPlan.save({session:sess});
-    //   Disease.foodPlans.push(foodPlan);
-    //   await Disease.save({session:sess});
-    //   await sess.commitTransaction();
-    // }catch(err){
-    //   const error = new HttpError(
-    //         'creating foodPlan failed',500
-    //       );
-    //       return next(error);
-    //   console.log(err);
-    // }
-
-    // res.status(201).json({foodPlan});
-
+ 
     foodPlan.save()
     .then(data =>{
       res.status(201).json({foodPlan})
@@ -232,15 +204,6 @@ const getRelatedFoodPlans = async (req,res,next) => {
   
 } 
 
-// const getDiseasesFromFoodPlans = (req,res,next) => {
-//   foodPlanSchema.distinct('disease',{},(err,diseases) => {
-//     if(err){
-//       return res.status(400).json({
-//         error: 'diseases not found'
-//       });
-//     }
-//     res.json(diseases)
-//   }) 
 
 // }
 /**
@@ -297,41 +260,10 @@ const getFoodPlansBySearch = async(req, res,next) => {
         );
         return next(error);
         }
-    // let foodPlans=[];
-    // try{
-    //   foodPlans = await foodPlanSchema.find(findArgs)
-    //     .select("-photo")
-    //     .populate("disease",'name')
-    //     .sort([[sortBy, order]])
-    //     .skip(skip)
-    //     .limit(limit)
-    //     .exec()
-    // }catch(err){
-    //   const error = new HttpError(
-    //     'getting foodPlan failed',500
-    //   );
-    //   return next(error);
-    // }
+    
 
     res.json({size:foodPlans.length,foodPlans});
-    // await foodPlanSchema.find(findArgs)
-    //     .select("-photo")
-    //     .populate("disease")
-    //     .sort([[sortBy, order]])
-    //     .skip(skip)
-    //     .limit(limit)
-    //     .exec()
-        // .exec((err, foodPlans) => {
-        //     if (err) {
-        //         return res.status(400).json({
-        //             error: "foodPlans not found"
-        //         });
-        //     }
-        //     res.json({
-        //         size: foodPlans.length,
-        //         foodPlans
-        //     });
-        // });
+    
 };
 
 const getFoodPlanPhoto = (req,res,next) => {

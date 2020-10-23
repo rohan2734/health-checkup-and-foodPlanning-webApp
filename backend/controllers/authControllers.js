@@ -15,7 +15,7 @@ const signup = async (req,res,next) => {
     );
     return next(error);
   }
-  // console.log('20',existingUser);
+  
   if(existingUser){
     const error = new HttpError(
       'user already exists,please use different email or login',500
@@ -75,11 +75,11 @@ const signup = async (req,res,next) => {
 const login = async (req,res,next) => {
 
   const {email,password} = req.body;
-  // console.log(req.body);
+  
   let existingUser;
   try{
     existingUser= await userSchema.findOne({email:email});
-    // console.log(user);
+   ;
   }catch(err){
     const error = new HttpError(
       'logging in failed, please try again',500
@@ -87,7 +87,7 @@ const login = async (req,res,next) => {
     return next(error);
   }
 
-  // console.log(existingUser);
+
   if(!existingUser ){
     const error = new HttpError(
       'user doesnt exist, check your credentials',500
@@ -164,12 +164,9 @@ const checkAuth = (req,res,next) => {
 }
 
 const isAuth = (req,res,next) => {
-  //  console.log('req.profile',req.profile);
-  //  console.log('req.userData',req.userData);
-  //  console.log('req.profile._id',req.profile._id);
-  //  console.log('req.userData.userId',req.userData.userId);
+ 
   let user =req.profile && req.userData && req.profile._id == req.userData.userId
-  //  console.log(user);
+  
   if(!user){
     return res.status(403).json({error: 'Access denied'})
   }

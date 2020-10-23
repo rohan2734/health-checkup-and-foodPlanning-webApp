@@ -56,9 +56,9 @@ const FoodPlan = (props) => {
         <div className="foodPlan-view-header">
           <h4>FoodPlans</h4>
         </div>
-        <div className="disease-view-header" style={{width:'34%'}}>
+        {/* <div className="disease-view-header" style={{width:'34%'}}>
           <h4>Related FoodPlans</h4>
-        </div>
+        </div> */}
           {/* {JSON.stringify(foodPlan)} */}
         <div className="container-fluid">      
           {foodPlan && <Card2 foodPlan={foodPlan} 

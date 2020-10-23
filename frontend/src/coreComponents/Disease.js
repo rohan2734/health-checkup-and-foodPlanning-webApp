@@ -55,9 +55,9 @@ const Disease = (props) => {
           <div className="disease-view-header">
             <h4>Diseases</h4>
           </div>
-          <div className="disease-view-header" style={{width:'34%'}}>
+          {/* <div className="disease-view-header" style={{width:'34%'}}>
             <h4>Related Dieseases</h4>
-          </div>
+          </div> */}
             
           <div className="container-fluid">          
             {disease && <Card2 

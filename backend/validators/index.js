@@ -23,7 +23,7 @@ const { check,validationResult} = require('express-validator');
   ];
 
   const searchQueryValidator = [
-    check('query.search','search query is empty').not().isEmpty()
+    check('req.query.search','search query is empty').not().isEmpty()
   ]
   
 exports.searchQueryValidator = searchQueryValidator;

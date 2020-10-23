@@ -47,9 +47,9 @@ const Home = () => {
                     src={'assets/img/img1.jpg'}
                     alt="1st "  
                   />  
-                  <Carousel.Caption className="carousel-caption">  
+                  {/* <Carousel.Caption className="carousel-caption">  
                     <h3>First Demo </h3>  
-                  </Carousel.Caption>  
+                  </Carousel.Caption>   */}
                 </Carousel.Item  >
 
                 <Carousel.Item style={{'height':"600px"}} className="carousel-item">  
@@ -58,18 +58,18 @@ const Home = () => {
                     src={'assets/img/img2.jpg'}
                     alt="2nd " 
                   />  
-                  <Carousel.Caption className="carousel-caption">  
+                  {/* <Carousel.Caption className="carousel-caption">  
                     <h3>Second Demo</h3>  
-                  </Carousel.Caption>  
+                  </Carousel.Caption>   */}
                 </Carousel.Item>
 
                 <Carousel.Item style={{'height':"600px"}} className="carousel-item">  
                   <img style={{'height':"500px"}}  
                     className="d-block w-100 "  
                     src={'assets/img/img3.jpg'} alt="3rd"  />  
-                  <Carousel.Caption className="carousel-caption">  
+                  {/* <Carousel.Caption className="carousel-caption">  
                     <h3>Third Demo</h3>  
-                  </Carousel.Caption>  
+                  </Carousel.Caption>   */}
                 </Carousel.Item>  
               </Carousel>
             </div>

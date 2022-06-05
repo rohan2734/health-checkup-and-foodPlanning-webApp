@@ -59,7 +59,7 @@ app.use((error,req,res,next) => {
 })
 
 mongoose
-  .connect('mongodb+srv://rohan:2FBmksrXOMdejPxC@cluster0.3kcv6.mongodb.net/healthapp?retryWrites=true&w=majority',
+  .connect('mongodb+srv://rohan:OAsr3zuh1q6s24DF@cluster0.3kcv6.mongodb.net/healthapp?retryWrites=true&w=majority',
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
@@ -73,3 +73,5 @@ mongoose
   .catch((err) => {
     console.log(err);
   })
+
+  // mongodb+srv://<username>:<password>@cluster0.3kcv6.mongodb.net/?retryWrites=true&w=majority

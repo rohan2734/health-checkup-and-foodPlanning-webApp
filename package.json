@@ -1,0 +1,25 @@
+{
+  "name": "health-checkup-and-foodplanning-webapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd frontend && npm start",
+    "backend": "cd backend && npm start",
+    "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run frontend\"",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohan2734/health-checkup-and-foodPlanning-webApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rohan2734/health-checkup-and-foodPlanning-webApp/issues"
+  },
+  "homepage": "https://github.com/rohan2734/health-checkup-and-foodPlanning-webApp#readme"
+}

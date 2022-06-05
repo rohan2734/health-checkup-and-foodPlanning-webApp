@@ -19,10 +19,10 @@ const Home = () => {
   const loadDiseasesByLimit = () => {
     getDiseasesByLimit('limit')
     .then(data => {
-      if(data.error || data.message){
-        setValues({...values,error:data.error || data.message})
+      if(data?.error || data?.message){
+        setValues({...values,error:data?.error || data?.message || "empty"})
       }else{
-        setValues({...values,diseasesByLimit: data.diseases})
+        setValues({...values,diseasesByLimit: data?.diseases || 0})
       }
     })
   }

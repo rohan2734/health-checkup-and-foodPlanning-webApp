@@ -24,10 +24,10 @@ const Search = () => {
   const loadCategories = ()=>{
     getCategories()
     .then(data => {
-      if(data.error || data.message){
-        setValues({...values,error:data.error|| data.message})
+      if(data?.error || data?.message){
+        setValues({...values,error:data.error|| data.message || "empty"})
       }else{
-        setValues({...values,categories:data.categories,error:''})
+        setValues({...values,categories:data?.categories || "empty",error:''})
       }
     })
   }

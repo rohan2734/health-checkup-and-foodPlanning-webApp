@@ -11,6 +11,14 @@ This is an app which guides you take foodPlans to make your health better, you c
 - I was able to develop my own approaches to implement the features and was able to implement them successfully
 - My friend Manish CP has helped me in the data collection and I have saved them with postman in the MongoDB database.
 
+## what are thechallenges faced?
+- I was facing problems in updating the parent component from child component, but I solved it finally
+- I was facing issues in solving the CORS error , later i figured out that it was due to the attributes mismatch. 
+- I was facing issues in the flexibiltiy, layout , which i solved later after studying about the bootstrap basics
+- I was facing issues in filtering, searching, the products were not being updated from database to the frontend,  which i solved it later.
+- authorisation and building admin dashboard, updating the categories , products from the interface was tough, 
+- the forms input was sometimes not updating , it was fixed later.
+
 ## Features of the project 
 - Slogans to motivate the users to have a healthier lifestyle
 - Home page to view all the diseases

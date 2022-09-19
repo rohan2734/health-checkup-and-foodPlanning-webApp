@@ -1,6 +1,14 @@
 # health-checkup-and-foodPlanning-webApp
-This is an app which guides you take foodPlans to make your health better, you can aslo view the diseases and order the foodPlans , and this app delivers you the foodPlans also.
+- This is an app which guides you take foodPlans to make your health better, you can aslo view the diseases and order the foodPlans , and this app delivers you the foodPlans also. 
+- It shows the list of diseases available ,and for each disease foodplans are available to chose to get cured.
+- Users can signup and login to place the food orders and make themselves healthy.
 
+## Technologies used
+- It is a full Stack project developed using MERN stack - MongoDB ExpressJS ReactJS NodeJS .
+- For frontend , I have used , ReactJS CSS bootstrap
+- For backend , I have used , ExpressJS and NodeJS
+- for Database, I have used MongoDB .
+-
 - website is deployed [here](https://healthify-me-rd.herokuapp.com/)
 - currently due to this error `Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch`, it is not deployed successfully.
 
